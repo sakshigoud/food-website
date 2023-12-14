@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foods</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+         
+*,*:after,
+*:before{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+
+}
+a:hover{
+    color:red !important ;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--primary-font);
+    font-size: 130%;
+    font-weight: 550;
+}
+h1{
+  font-size: 500;
+  font-weight: 900;
+  color:var(--secondary-color);
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+h2{
+    font-size: 500;
+    font-weight: 800;
+    color:var(--secondary-color);
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+h4{
+    font-size: 500;
+    font-weight: 900;
+    color:var(--secondary-color);
+    margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+h5{
+    font-size: 500;
+  font-weight: 900;
+  color:var(--secondary-color);
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+  text-align: center;
+} 
+p{
+  font-size: 200;
+  font-weight: 500;
+}
+
+
+
+.btn:hover{
+     background-color: transparent;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap" style="background-color:brown" >
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/Food jone.gif" width="130px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item" font-size="100" height="30">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Explore-food">Explore food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li><button type="button" class="btn btn-danger">123456</button></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active ">
+          <img src="images/bg/bg1.jpg" class="d-block w-100"  width="400" height="585" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg/bg2.jpg" class="d-block w-100" width="400" height="585" >
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg/bg3.jpg" class="d-block w-100" width="400" height="585" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr> 
+
+
+
+    <div class="conatiner " style="background-color:brown">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-3 mt-4 ">
+          <h2>our trending food</h2>
+        </div>
+      </div>
+      <div class="row justify-content-evenly pb-3  pt-3 mr-5 ml-5">
+        <div class="card" style="width: 20rem; height: 25rem; background-color:lightsalmon;" >
+          <img src="images/img/1.jpg" class="card-img-top"  height="180rem ">
+          <div class="card-body">
+            <h5 class="card-title">Cup cake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur.</p>
+            <a href="#" class="btn btn-danger">$50.6</a>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem; height: 25rem; background-color:lightsalmon; ">
+          <img src="images/img/2.jpg" class="card-img-top"  height="180rem">
+          <div class="card-body">
+            <h5 class="card-title">Cup cake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur.</p>
+            <a href="#" class="btn btn-danger">$50.6</a>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem; height: 25rem; background-color:lightsalmon;">
+          <img src="images/img/3.jpg" class="card-img-top" height="200rem" >
+          <div class="card-body">
+            <h5 class="card-title">Cup cake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur.</p>
+            <a href="#" class="btn btn-danger">$50.6</a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-evenly pb-3  pt-3 mr-5 ml-5">
+        <div class="card" style="width: 20rem; height: 25rem; background-color:lightsalmon;">
+          <img src="images/img/4.jpg" class="card-img-top" height="200rem" >
+          <div class="card-body">
+            <h5 class="card-title">Cup cake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur.</p>
+            <a href="#" class="btn btn-danger">$50.6</a>
+          </div>
+        </div><div class="card" style="width: 20rem; height: 25rem; background-color:lightsalmon;">
+          <img src="images/img/5.jpg" class="card-img-top" height="200rem" >
+          <div class="card-body">
+            <h5 class="card-title">Cup cake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur.</p>
+            <a href="#" class="btn btn-danger">$50.6</a>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem; height: 25rem; background-color:lightsalmon;">
+          <img src="images/img/3.jpg" class="card-img-top" height="200rem" >
+          <div class="card-body">
+            <h5 class="card-title">Cup cake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur.</p>
+            <a href="#" class="btn btn-danger">$50.6</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <hr>
+
+
+
+
+      <div class="container" style="background-color:lightsalmon; ">
+        <div class="row">
+          <div class="col-sm-12 text-center mt-5 mb-3">
+               <h1>About us</h1>
+              </div>
+        </div>
+
+               
+        <div class="row ">
+          <div class="col-sm-8 mt-10" style="align-items: left; padding: 150px;" >   
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    Id possimus repudiandae corrupti est in nesciunt veritatis odit animi ea incidunt? 
+                    Ipsum voluptatum magni optio. Velit perferendis ab, cupiditate voluptatibus corporis eaque magni,
+                     aperiam animi placeat autem dolorum explicabo repellendus nemo?
+                    <br>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                 Reiciendis esse tempore eius recusandae exercitationem et veniam adipisci officia fugiat dolor?
+                <br>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               Similique unde rem reprehenderit quae possimus delectus?</p>
+          </div>
+                  <div class="col-sm-4"  >
+                    <img align="right"   src="images/bg/bg3.jpg" width="400" >
+                  </div>
+                </div>
+                 </div>   
+          <hr>
+          
+
+        <div class="container" style="background-color: brown;">
+          <div class="row">
+            <div class="col-sm-12 mt-4 mb-5" style=" text-align: center;">
+             <h1>Contact us</h1>
+            </div>
+          </div>
+          <form class="row g-3 needs-validation" style="padding: 60px;" novalidate>
+            <div class="col-md-5">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-5">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class=" col-md-5 mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="col-md-5 g-3 align-items-center">
+              <div class="col-auto">
+                <label for="inputPassword6" class="col-form-label">Password</label>
+              </div>
+              <div class="col-auto">
+                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+              </div>
+              <div class="col-auto">
+                <span id="passwordHelpInline" class="form-text">
+                  Must be 8-20 characters long.
+                </span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">State</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>Madhya Pradesh</option>
+                <option>Madhya Pradesh</option>
+                <option>Madhya Pradesh</option>
+                <option>Madhya Pradesh</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-center">
+              <button class="btn btn-secondary" type="submit">Submit form</button>
+            </div>
+          </form>
+                
+       
+    
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+
+
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+
+     
+*,*:after,
+*:before{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+
+}
+a:hover{
+    color:red !important ;
+}
+.main-btn{
+    background-color: brown;
+    color:white;
+
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+h1{
+  font-size: 500;
+  font-weight: 900;
+  color:var(--secondary-color);
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+h2{
+    font-size: 500;
+    font-weight: 900;
+    color:var(--secondary-color);
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+h4{
+    font-size: 500;
+    font-weight: 900;
+    color:var(--secondary-color);
+    margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+h5{
+    font-size: 500;
+  font-weight: 900;
+  color:var(--secondary-color);
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+} 
+.main-btn{
+     display: inline-block;
+     color:var(--white-color);
+     background-color: var(--primary-color);
+     font-size: 500;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 2px 3px;
+    border: 0.167rem;
+   
+}
+
+.main-btn:hover{
+     background-color: transparent;
+     color:var(--primary-color);
+}
+
